@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorkshopLecture</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="invalid_credentials"><![CDATA[Invalid username & password combination!]]></string>
+</resources>
