@@ -26,7 +26,7 @@ public class PreferenceManager {
      */
     private static final String PREFERENCE_USER = "User";
 
-    private static PreferenceManager ourInstance = new PreferenceManager();
+    private static final PreferenceManager ourInstance = new PreferenceManager();
 
     public static PreferenceManager getInstance() {
         return ourInstance;

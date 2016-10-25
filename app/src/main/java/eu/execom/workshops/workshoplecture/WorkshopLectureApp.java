@@ -3,6 +3,8 @@ package eu.execom.workshops.workshoplecture;
 import android.app.Application;
 import android.content.Context;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
+
 /**
  * Holds the global application context and responds to application scope events.
  * This is a singleton.
@@ -25,5 +27,6 @@ public class WorkshopLectureApp extends Application {
     public void onCreate() {
         super.onCreate();
         workshopLectureApp = this;
+        Fresco.initialize(this);
     }
 }
